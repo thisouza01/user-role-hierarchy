@@ -1,2 +1,2 @@
-public class Salesman extends Menager{
+public class Salesman extends Manager{
 }

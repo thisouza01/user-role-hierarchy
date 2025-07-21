@@ -1,2 +1,2 @@
-public class Caxier extends Menager{
+public class Caxier extends Manager{
 }
