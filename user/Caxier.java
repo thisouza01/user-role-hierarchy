@@ -1,7 +1,6 @@
 public class Caxier extends Manager{
 
     private double cashValue;
-    private boolean isAdmin;
 
     public Caxier(String name,
                   String email,

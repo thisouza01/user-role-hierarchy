@@ -1,7 +1,6 @@
 public class Salesman extends Manager{
 
     private int salesQuantity;
-    private boolean isAdmin;
 
     public Salesman(String name,
                     String email,

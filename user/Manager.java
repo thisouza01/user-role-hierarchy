@@ -2,7 +2,7 @@ public class Manager {
     private String name;
     private String email;
     private String password;
-    private boolean isAdmin;
+    protected boolean isAdmin;
 
 
     public Manager(String name, String email, String password) {
