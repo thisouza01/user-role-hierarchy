@@ -12,5 +12,19 @@ public class Salesman extends Manager{
             this.isAdmin = false;
     }
 
+    public int getSalesQuantity() {
+        return salesQuantity;
+    }
 
+   public void makeSales() {
+        this.salesQuantity += 1;
+   }
+
+   public void alterEmail(String email) {
+
+   }
+
+   public void alterPassword(String password) {
+
+   }
 }

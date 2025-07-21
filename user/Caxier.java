@@ -11,4 +11,8 @@ public class Caxier extends Manager{
         this.cashValue = cashValue;
         this.isAdmin = false;
     }
+
+    public double getCashValue() {
+        return cashValue;
+    }
 }
