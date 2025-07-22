@@ -15,7 +15,6 @@ public class Salesman extends Manager{
         this.salesQuantity += quantity;
    }
 
-   @Override
    public int consultSales(){
        return salesQuantity;
    }

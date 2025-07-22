@@ -4,10 +4,8 @@ public class Main {
 
     //    Manager manager = new Manager("Thiago", "thiago@gmail.com", "123456789");
     //    System.out.println(manager.getName());
-    //    Caxier caxier = new Caxier("ago", "ago@gmail.com", "123456789", 2000);
-    //    System.out.println(caxier.getName());
 
-
+    /*
         // Instancia a classe e adiciona 1 a contagem de vendas
         Salesman salesman = new Salesman("Gabi", "Gabi@gmail.com", "123456789");
         salesman.makeSales(3);
@@ -20,8 +18,23 @@ public class Main {
         // consulta
         System.out.println(salesman.consultSales());
         System.out.println(salesman.getEmail());
+    */
 
+        Cashier cashier = new Cashier(
+                "ago",
+                "ago@gmail.com",
+                "123456789");
 
+        System.out.println(cashier.getName());
+
+        cashier.receivePayment(500);
+        System.out.println(cashier.closeCashRegister());
+        cashier.receivePayment(500);
+        System.out.println(cashier.closeCashRegister());
+
+        System.out.println(cashier.login("gabi@.com", "123456"));
+
+        System.out.println(cashier.logoff());
 
     }
 

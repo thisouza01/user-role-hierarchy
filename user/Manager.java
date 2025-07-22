@@ -17,14 +17,6 @@ public class Manager {
         return name;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
     public String generateReport() {
         return "Relatorio gerado!";
     }
