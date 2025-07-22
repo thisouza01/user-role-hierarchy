@@ -1,7 +1,7 @@
 public class Manager {
-    private String name;
-    private String email;
-    private String password;
+    protected String name;
+    protected String email;
+    protected String password;
     protected boolean isAdmin;
 
 
@@ -39,6 +39,14 @@ public class Manager {
 
     public String logoff(){
         return "Deslogado!";
+    }
+
+    public void alterEmail(String email) {
+        this.email = email;
+    }
+
+    public void alterPassword(String password) {
+        this.password = password;
     }
 
 

@@ -4,27 +4,21 @@ public class Salesman extends Manager{
 
     public Salesman(String name,
                     String email,
-                    String password,
-                    int salesQuantity) {
+                    String password) {
             super(name, email, password);
 
-            this.salesQuantity = salesQuantity;
+            this.salesQuantity = 0;
             this.isAdmin = false;
     }
 
-    public int getSalesQuantity() {
-        return salesQuantity;
-    }
-
    public void makeSales() {
-        this.salesQuantity += 1;
+        this.salesQuantity =+ salesQuantity;
    }
 
-   public void alterEmail(String email) {
-
+   @Override
+   public int consultSales(){
+       return salesQuantity;
    }
 
-   public void alterPassword(String password) {
 
-   }
 }
