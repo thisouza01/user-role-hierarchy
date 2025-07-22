@@ -11,16 +11,15 @@ public class Main {
         // Instancia a classe e adiciona 1 a contagem de vendas
         Salesman salesman = new Salesman("Gabi", "Gabi@gmail.com", "123456789");
         salesman.makeSales();
-        Salesman salesman2 = new Salesman("Gabi", "Gabi@gmail.com", "123456789");
-        System.out.println(salesman2.getName());
-        salesman2.makeSales();
+        salesman.makeSales();
+        salesman.makeSales();
 
         // Altera email do vendedor
-        salesman2.alterEmail("thiago01@gmail.com");
+        System.out.println(salesman.getEmail());
+        salesman.alterEmail("thiago01@gmail.com");
 
         // consulta
-        System.out.println(salesman2.consultSales());
-        System.out.println(salesman2.getEmail());
+        System.out.println(salesman.consultSales());
         System.out.println(salesman.getEmail());
 
 

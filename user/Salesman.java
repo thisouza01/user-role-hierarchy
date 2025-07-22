@@ -12,7 +12,7 @@ public class Salesman extends Manager{
     }
 
    public void makeSales() {
-        this.salesQuantity =+ salesQuantity;
+        this.salesQuantity += 1;
    }
 
    @Override
