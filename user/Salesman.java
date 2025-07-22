@@ -11,8 +11,8 @@ public class Salesman extends Manager{
             this.isAdmin = false;
     }
 
-   public void makeSales() {
-        this.salesQuantity += 1;
+   public void makeSales(int quantity) {
+        this.salesQuantity += quantity;
    }
 
    @Override

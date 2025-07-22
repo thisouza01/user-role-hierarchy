@@ -10,9 +10,8 @@ public class Main {
 
         // Instancia a classe e adiciona 1 a contagem de vendas
         Salesman salesman = new Salesman("Gabi", "Gabi@gmail.com", "123456789");
-        salesman.makeSales();
-        salesman.makeSales();
-        salesman.makeSales();
+        salesman.makeSales(3);
+        salesman.makeSales(2);
 
         // Altera email do vendedor
         System.out.println(salesman.getEmail());
